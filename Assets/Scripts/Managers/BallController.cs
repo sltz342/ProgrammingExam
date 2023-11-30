@@ -65,7 +65,7 @@ public class BallController : MonoBehaviour
 
 
 
-    private bool CheckGround()
+    public bool CheckGround()
     {
         isGrounded = Physics.Raycast(transform.position, Vector3.down, depth);
 
